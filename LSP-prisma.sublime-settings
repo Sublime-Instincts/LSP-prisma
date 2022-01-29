@@ -1,0 +1,17 @@
+{
+    "command": ["${node_bin}", "${server_path}", "--stdio"],
+    "initializationOptions": {
+
+    },
+    "languages": [
+        {
+            "languageID": "prisma",
+            "scopes": [
+                "source.prisma"
+            ],
+            "syntaxes": [
+                "Packages/Prisma/resources/syntax/Prisma.sublime-syntax",
+            ]
+        }
+    ],
+}
