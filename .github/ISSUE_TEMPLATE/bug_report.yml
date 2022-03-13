@@ -1,0 +1,51 @@
+---
+name: Bug Report
+description: File a bug report to address an issue in LSP-prisma !
+
+body:
+  - type: textarea
+    attributes:
+      label: Description of the bug
+      description: |
+        A description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Please provide detailed steps on how the bug can be reproduced. Please make sure that the issue is with LSP-prisma and not with the language server itself. If it's with the language server, then the appropriate place to file an issue would be at https://github.com/prisma/language-tools.
+      placeholder: |
+        1. First step.
+        2. Second step.
+        3. Third step.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: A description of what actually happened.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Troubleshooting information from LSP.
+      description: Run "LSP Troubleshoot server" from the command palette and select "LSP-prisma" from the options. Copy the contents from that here.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: LSP-prisma version
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
