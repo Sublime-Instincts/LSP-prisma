@@ -1,8 +1,5 @@
 {
     "command": ["${node_bin}", "${server_path}", "--stdio"],
-    "initializationOptions": {
-
-    },
     "languages": [
         {
             "languageID": "prisma",
