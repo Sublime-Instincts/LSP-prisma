@@ -33,7 +33,7 @@ Use `Package Control: Add Repository` from the command palette. Copy the github 
 
 ## Reporting issues.
 
-If you are facing issues with this package, it's most likely that there is an issue with
+This package is just a wrapper around the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server). If you face any issues, you can verify to see if the same thing happens in VS Code. If it does, it's an issue with the language tools and an issue shoulb be filed with them.
 
 Please follow the issue template that has been setup while reporting any bug(s) (So as to stay as organised as possible).
 
