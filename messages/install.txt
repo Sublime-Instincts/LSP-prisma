@@ -1,0 +1,40 @@
+  _       _____ _____                   _
+ | |     / ____|  __ \                 (_)
+ | |    | (___ | |__) |_____ _ __  _ __ _ ___ _ __ ___   __ _
+ | |     \___ \|  ___/______| '_ \| '__| / __| '_ ` _ \ / _` |
+ | |____ ____) | |          | |_) | |  | \__ \ | | | | | (_| |
+ |______|_____/|_|          | .__/|_|  |_|___/_| |_| |_|\__,_|
+                            | |
+                            |_|
+==============================================================
+
+LSP-prisma is a LSP helper package for the Prisma Language Server.
+LSP-prisma on it's own doesn't do anything. It acts as a glue between
+the LSP package and the Prisma Language Server. It takes care of downloading,
+configuring & updating the language server for you so that you
+don't have to do it manually.
+
+Features
+--------
+
+Everything that the Prisma Language Server supports, which includes
+
+- Linting for your prisma schema files to show possible issue(s) & error(s).
+- Intelligent auto completions.
+- `Goto Definition` for models & enums.
+- Formatting of your schema files using `prisma fmt`.
+
+Having Problems ?
+-----------------
+
+If you encounter any problems with LSP-prisma, or you think that
+it can be improved to make your work easier, please log an issue
+on the issue tracker:
+
+    https://github.com/Sublime-Instincts/LSP-prisma/issues
+
+Get in Touch
+------------
+
+LSP-prisma is developed & maintained by Ashwin Shenoy. If you have
+any feedback regarding LSP-prisma, just send a mail on ashwinshenoy05@gmail.com
