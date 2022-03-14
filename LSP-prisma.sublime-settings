@@ -1,5 +1,8 @@
 {
     "command": ["${node_bin}", "${server_path}", "--stdio"],
+    "selector": "source.prisma",
+    "initializationOptions": {},
+    "settings": {},
     "languages": [
         {
             "languageID": "prisma",
@@ -7,7 +10,7 @@
                 "source.prisma"
             ],
             "syntaxes": [
-                "Packages/Prisma/resources/syntax/Prisma.sublime-syntax",
+                "Packages/PrismaHighlight/resources/syntax/Prisma.sublime-syntax",
             ]
         }
     ],
