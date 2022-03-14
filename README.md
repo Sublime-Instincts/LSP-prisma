@@ -4,6 +4,8 @@
 
 `LSP-prisma` is a LSP helper package for the [Prisma Language Server](https://github.com/prisma/language-tools/tree/main/packages/language-server). `LSP-prisma` on it's own doesn't do anything. It acts as a glue between the `LSP` package and the [Prisma Language Server](https://github.com/prisma/language-tools/tree/main/packages/language-server). It takes care of downloading, configuring & updating the language server for you so that you don't have to do it manually.
 
+![Prisma Auto Complete](./images/prisma_auto_complete_example.png)
+
 ## Features
 
 Everything that the [Prisma Language Server](https://github.com/prisma/language-tools/tree/main/packages/language-server) supports, which includes
