@@ -15,27 +15,27 @@ Everything that the [Prisma Language Server](https://github.com/prisma/language-
 - `Goto Definition` for models & enums.
 - Formatting of your schema files using `prisma fmt`.
 
-Read the [Documentation]() section to understand how to use these features from ST.
+Read the [Documentation](#Documentation) section to understand how to use these features from ST.
 
 ## Installation
 
 #### Package Control
 
-Make sure that you have the [LSP](https://packagecontrol.io/packages/LSP) package installed before installing `LSP-prisma` (since `LSP` is the client package implementing the LSP protocol and is needed by `LSP-prisma` in order to work).
+Make sure that you have the [LSP](https://packagecontrol.io/packages/LSP) & the [PrismaHighlight](https://github.com/Sublime-Instincts/PrismaHighlight) packages installed before installing `LSP-prisma` (since `LSP` is the client package implementing the LSP protocol and is needed by `LSP-prisma` in order to work. The `PrismaHighlight` package is needed to help `LSP-prisma` attach the language server to the Prisma schema files using the syntax scope provided by `PrismaHighlight`).
 
-This package is not available on Package Control. Once you have `LSP` installed, use the following instructions.
+1. The recommended way is to use `Package Control: Install Package` from the command palette. Search for `LSP-prisma` and hit <kbd>enter</kbd>. The package will be installed. Package Control will take care of auto updating the package as & when there are new tagged releases.
 
-Use `Package Control: Add Repository` from the command palette. Copy the github url (without the `.git` at the end) and enter it into the input panel that pops up at the bottom when you select `Package Control: Add Repository`. Now use `Package Control: Install Package` and search for `LSP-prisma` and install it.
+2. Another way to install is to use `Package Control: Add Repository` from the command palette. Copy the github url (without the `.git` at the end) and enter it into the input panel that pops up at the bottom when you select `Package Control: Add Repository`. Now use `Package Control: Install Package` and search for `LSP-prisma` and install it. This is **not the recommended way though**, as this will periodically pull changes from the `main/master` branch. So there are chances of features breaking.
 
 ## Documentation
 
 ### How to use this package ?
 
-
+A wiki documentation is currently being prepared. In the mean time, if you have any questions, feel free to use the [Discussions](https://github.com/Sublime-Instincts/LSP-prisma/discussions) setup to ask questions !
 
 ## Reporting issues.
 
-This package is just a wrapper around the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server). If you face any issues, you can verify to see if the same thing happens in VS Code. If it does, it's an issue with the language tools and an issue shoulb be filed with them.
+This package is just a wrapper around the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server). If you face any issues, you can verify to see if the same issue occurs in VS Code. If it does, it's an issue with the language tools and an issue shoulb be filed with them.
 
 Please follow the issue template that has been setup while reporting any bug(s) (So as to stay as organised as possible).
 
