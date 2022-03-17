@@ -12,10 +12,10 @@ Everything that the [Prisma Language Server](https://github.com/prisma/language-
 
 - Linting for your prisma schema files to show possible issue(s) & error(s).
 - Intelligent auto completions.
-- `Goto Definition` for models & enums.
+- `Goto Definition` for models, enums & types.
 - Formatting of your schema files using `prisma fmt`.
 
-Read the [Documentation](#Documentation) section to understand how to use these features from ST.
+Read the [Documentation](#Documentation) section to understand how to use these features in ST.
 
 ## Installation
 
@@ -35,13 +35,13 @@ A wiki documentation is currently being prepared. In the mean time, if you have 
 
 ## Reporting issues.
 
-This package is just a wrapper around the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server). If you face any issues, you can verify to see if the same issue occurs in VS Code. If it does, it's an issue with the language tools and an issue shoulb be filed with them.
+This package is just a wrapper around the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server). If you face any issues, you can verify to see if the same issue occurs in VS Code. If it does, it's an issue with the language server and an issue should be filed with them.
 
-Please follow the issue template that has been setup while reporting any bug(s) (So as to stay as organised as possible).
+Please follow the issue template that has been setup while reporting any bug(s) (So as to stay as organized as possible).
 
 ## Acknowledgements.
 
-This package won't exist without [LSP](https://packagecontrol.io/packages/LSP) & the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server), so huge thanks to them for making working with prisma schema files easier !
+This package won't exist without [LSP](https://packagecontrol.io/packages/LSP) & the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server), so huge thanks to them for the ST `LSP` package maintainers for bringing LSP capabilities to ST & the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server) maintainers for making working with Prisma schema files easier !
 
 ## License
 The MIT License (MIT)
