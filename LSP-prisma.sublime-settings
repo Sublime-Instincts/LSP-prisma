@@ -3,15 +3,4 @@
     "selector": "source.prisma",
     "initializationOptions": {},
     "settings": {},
-    "languages": [
-        {
-            "languageID": "prisma",
-            "scopes": [
-                "source.prisma"
-            ],
-            "syntaxes": [
-                "Packages/PrismaHighlight/resources/syntax/Prisma.sublime-syntax",
-            ]
-        }
-    ],
 }
