@@ -1,6 +1,6 @@
 # LSP-prisma
 
-![LICENSE](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge) ![Sublime Text](https://img.shields.io/badge/ST-Build%204126+-orange?style=for-the-badge&logo=sublime-text) ![Tag](https://img.shields.io/github/v/tag/Sublime-Instincts/LSP-prisma?style=for-the-badge&logo=github&sort=semver)
+![LICENSE](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge) ![Sublime Text](https://img.shields.io/badge/ST-Build%204126+-orange?style=for-the-badge&logo=sublime-text) ![Tag](https://img.shields.io/github/v/tag/Sublime-Instincts/LSP-prisma?style=for-the-badge&logo=github&sort=semver) ![Downloads](https://img.shields.io/packagecontrol/dt/LSP-prisma?style=for-the-badge)
 
 `LSP-prisma` is a LSP helper package for the [Prisma Language Server](https://github.com/prisma/language-tools/tree/main/packages/language-server). `LSP-prisma` on it's own doesn't do anything. It acts as a glue between the `LSP` package and the [Prisma Language Server](https://github.com/prisma/language-tools/tree/main/packages/language-server). It takes care of downloading, configuring & updating the language server for you so that you don't have to do it manually.
 
@@ -41,7 +41,7 @@ Please follow the issue template that has been setup while reporting any bug(s) 
 
 ## Acknowledgements.
 
-This package won't exist without [LSP](https://packagecontrol.io/packages/LSP) & the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server), so huge thanks to them for the ST `LSP` package maintainers for bringing LSP capabilities to ST & the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server) maintainers for making working with Prisma schema files easier !
+This package won't exist without [LSP](https://packagecontrol.io/packages/LSP) & the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server), so huge thanks to them, the ST `LSP` package maintainers for bringing LSP capabilities to ST & the [Prisma Language Tools](https://github.com/prisma/language-tools/tree/main/packages/language-server) maintainers for making working with Prisma schema files easier !
 
 ## License
 The MIT License (MIT)
