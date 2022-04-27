@@ -1,21 +1,21 @@
 {
-  "name": "@prisma/language-server",
-  "description": "Implementation of a language server in Node.",
-  "displayName": "Prisma Language Server",
-  "version": "31.0.714",
-  "author": "Prisma",
-  "license": "Apache-2.0",
-  "publisher": "Prisma",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prisma/language-tools.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/prisma/language-tools/issues"
-  },
-  "homepage": "https://github.com/prisma/language-tools#readme",
-  "dependencies": {
-    "@prisma/language-server": "^3.12.0"
-  }
+    "name": "@prisma/language-server",
+    "description": "Implementation of a language server in Node.",
+    "displayName": "Prisma Language Server",
+    "version": "31.0.714",
+    "author": "Prisma",
+    "license": "Apache-2.0",
+    "publisher": "Prisma",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/prisma/language-tools.git"
+    },
+    "keywords": [],
+    "bugs": {
+       "url": "https://github.com/prisma/language-tools/issues"
+    },
+    "homepage": "https://github.com/prisma/language-tools#readme",
+    "dependencies": {
+        "@prisma/language-server": "3.13.0"
+    }
 }
