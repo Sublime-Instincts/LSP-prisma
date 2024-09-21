@@ -16,5 +16,5 @@ class LspPrismaPlugin(NpmClientHandler):
     server_binary_path = os.path.join(
         server_directory,
         "node_modules",
-        "@prisma", "language-server", "dist", "src", "bin.js"
+        "@prisma", "language-server", "dist", "bin.js"
     )
