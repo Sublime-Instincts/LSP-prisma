@@ -16,6 +16,6 @@
     },
     "homepage": "https://github.com/prisma/language-tools#readme",
     "dependencies": {
-        "@prisma/language-server": "^6.0.0"
+        "@prisma/language-server": "^6.1.0"
     }
 }
