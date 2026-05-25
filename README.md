@@ -21,7 +21,7 @@ Read the [Documentation](#Documentation) section to understand how to use these 
 
 #### Package Control
 
-Make sure that you have the [LSP](https://packagecontrol.io/packages/LSP) & the [PrismaHighlight](https://github.com/Sublime-Instincts/PrismaHighlight) packages installed before installing `LSP-prisma` (since `LSP` is the client package implementing the LSP protocol and is needed by `LSP-prisma` in order to work. The `PrismaHighlight` package is needed to help `LSP-prisma` attach the language server to the Prisma schema files using the syntax scope provided by `PrismaHighlight`).
+Make sure that you have the [LSP](https://packagecontrol.io/packages/LSP) & the [Prisma](https://packages.sublimetext.io/packages/Prisma) packages installed before installing `LSP-prisma` (since `LSP` is the client package implementing the LSP protocol and is needed by `LSP-prisma` in order to work. The `PrismaHighlight` package is needed to help `LSP-prisma` attach the language server to the Prisma schema files using the syntax scope provided by `PrismaHighlight`).
 
 1. The recommended way is to use `Package Control: Install Package` from the command palette. Search for `LSP-prisma` and hit <kbd>enter</kbd>. The package will be installed. Package Control will take care of auto updating the package as & when there are new tagged releases.
 
