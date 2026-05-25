@@ -1,0 +1,34 @@
+{
+    "input_repository_url": "https://github.com/prisma/language-tools",
+    "input_repository_json_configuration_path": "packages/vscode/package.json",
+    "transformers": [
+        {
+            "type": "jq",
+            "options": ".contributes.configuration.properties"
+        },
+        {
+            "type": "remove_keys",
+            "options": [
+                "prisma.fileWatcher",
+                "prisma.enableCodeLens",
+                "prisma.hidePrisma6Prompts",
+                "prisma.pinToPrisma6",
+                "prisma.schemaPath",
+                "prisma.scriptRunner",
+                "prisma.trace.server"
+            ]
+        }
+    ],
+    "render_templates": [
+        {
+            "type": "settings",
+            "template_path": "templates/sublime-settings.jinja.json",
+            "output_path": "LSP-prisma.sublime-settings"
+        },
+        {
+            "type": "schema",
+            "template_path": "templates/sublime-package.jinja.json",
+            "output_path": "sublime-package.json"
+        }
+    ]
+}
