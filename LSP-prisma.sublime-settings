@@ -1,6 +1,4 @@
 {
     "command": ["${node_bin}", "${server_path}", "--stdio"],
     "selector": "source.prisma",
-    "initializationOptions": {},
-    "settings": {},
 }
