@@ -2,6 +2,6 @@
     "name": "lsp-prisma",
     "private": true,
     "dependencies": {
-        "@prisma/language-server": "31.11.0"
+        "@prisma/language-server": "31.12.8"
     }
 }
